@@ -81,7 +81,7 @@ else{
         <a href="taxiride.php">Go Back</a>
         <?php else: ?>
             <div class="result">
-                <h3><?php echo htmlspecialchars($name); ?></h3>
+                <h3>Hello, <?php echo htmlspecialchars($name); ?>!</h3>
                 <p><strong>TaxiFare Summary</strong></p>
                 <hr>
                 <p>Base Fare: <?php echo number_format($base_fare, 2); ?></p>   
